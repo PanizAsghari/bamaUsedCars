@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbf1858f-6642-4fb3-897c-c4b089cdecae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ScrapyAttempt.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bama/crawled.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bama/queue.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/general.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/link_finder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider.py" />
-    </list>
+    <list default="true" id="cbf1858f-6642-4fb3-897c-c4b089cdecae" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +77,7 @@
       <file leaf-file-name="queue.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bama/queue.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="510">
               <caret line="30" column="59" lean-forward="false" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
               <folding />
             </state>
@@ -629,7 +615,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bama/queue.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="510">
           <caret line="30" column="59" lean-forward="false" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
           <folding />
         </state>
