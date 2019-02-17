@@ -1,4 +1,11 @@
 import urllib.request
+import csv
+import http
+
+def write_to_csv(atts_list):
+    with open("details.csv", 'wb') as resultFile:
+        wr = csv.writer(resultFile, dialect='excel')
+        wr.writerow(atts_list)
 
 
 def file_to_set(file_name):
@@ -19,7 +26,25 @@ def set_to_file(links, file_name):
 
 
 def open_page(web_url):
-    with urllib.request.urlopen(web_url) as url:
-        content = url.read()
-    return content
+    try:
+        with urllib.request.urlopen(web_url) as url:
+            content = url.read()
+        return content
+    except http.client.IncompleteRead:
+        print("http exception")
+        return "Exception occured"
+
+def write_list_to_csv(list):
+    with open("car_details.csv", "a") as fp:
+        wr = csv.writer(fp, dialect='excel')
+        try:
+            wr.writerow(list)
+        except UnicodeEncodeError:
+            print("unicode error. there was a problem with your set encoding")
+            list[9]=17
+            print(list)
+            wr.writerow(list)
+            return
+
+
 
