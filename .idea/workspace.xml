@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbf1858f-6642-4fb3-897c-c4b089cdecae" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preparationsForAIAttempts/outliersRemoval.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataExtraction/car_details.csv" afterPath="$PROJECT_DIR$/dataExtraction/car_details.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataExtraction/extractions.py" afterPath="$PROJECT_DIR$/dataExtraction/extractions.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataExtraction/main.py" afterPath="$PROJECT_DIR$/dataExtraction/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataExtraction/management.py" afterPath="$PROJECT_DIR$/dataExtraction/management.py" />
@@ -16,46 +18,23 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ScrapyAttempt$management.coverage" NAME="management Coverage Results" MODIFIED="1550239467487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataExtraction" />
-    <SUITE FILE_PATH="coverage/ScrapyAttempt$extractions.coverage" NAME="extractions Coverage Results" MODIFIED="1550241228745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataExtraction" />
+    <SUITE FILE_PATH="coverage/ScrapyAttempt$extractions.coverage" NAME="extractions Coverage Results" MODIFIED="1550381433340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataExtraction" />
     <SUITE FILE_PATH="coverage/ScrapyAttempt$general.coverage" NAME="general Coverage Results" MODIFIED="1530360052206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ScrapyAttempt$fileManagement.coverage" NAME="fileManagement Coverage Results" MODIFIED="1550132342839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataExtraction" />
     <SUITE FILE_PATH="coverage/ScrapyAttempt$link_finder.coverage" NAME="link_finder Coverage Results" MODIFIED="1530375230581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ScrapyAttempt$main.coverage" NAME="main Coverage Results" MODIFIED="1550122733995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ScrapyAttempt$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1550250188385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataExtraction" />
+    <SUITE FILE_PATH="coverage/ScrapyAttempt$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1550427630352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataExtraction" />
+    <SUITE FILE_PATH="coverage/ScrapyAttempt$outliersRemoval.coverage" NAME="outliersRemoval Coverage Results" MODIFIED="1550379599063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preparationsForAIAttempts" />
     <SUITE FILE_PATH="coverage/ScrapyAttempt$domain.coverage" NAME="domain Coverage Results" MODIFIED="1530370692351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="management.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataExtraction/management.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extractions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataExtraction/extractions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataExtraction/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="197" column="33" lean-forward="true" selection-start-line="197" selection-start-column="33" selection-end-line="197" selection-end-column="33" />
+            <state relative-caret-position="359">
+              <caret line="231" column="0" lean-forward="true" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -63,22 +42,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="car_details.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataExtraction/car_details.csv">
+      <file leaf-file-name="management.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataExtraction/management.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="3499" column="0" lean-forward="true" selection-start-line="3499" selection-start-column="0" selection-end-line="3499" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crawled.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/bama/crawled.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-259555">
-              <caret line="10994" column="72" lean-forward="false" selection-start-line="10994" selection-start-column="0" selection-end-line="10994" selection-end-column="72" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,7 +70,6 @@
       <find>https://bama.ir/car/details-2-4909530/1397-peugeot-pars-cng-for-sale</find>
       <find>https://bama.ir/car/details-3-7629085/2017-hyundai-sonata-hybrid-gls-plus-for-sale</find>
       <find>pri</find>
-      <find>print</find>
       <find>prin</find>
       <find>print(fuel</find>
       <find>extract_url_info(url):</find>
@@ -111,9 +81,17 @@
       <find>relea</find>
       <find>open_page</find>
       <find>rele</find>
+      <find>dena</find>
+      <find>https://bama.ir/car/details-2-7621498/1397-peugeot-206-ir-type2-for-sale</find>
       <find>un</find>
       <find>unico</find>
-      <find>https://bama.ir/car/details-2-7621498/1397-peugeot-206-ir-type2-for-sale</find>
+      <find>make</find>
+      <find>pr</find>
+      <find>print</find>
+      <find>206</find>
+      <find>description</find>
+      <find>there was a problem</find>
+      <find>بدون رنگ</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,10 +113,12 @@
         <option value="$PROJECT_DIR$/dataStore/csvSave.py" />
         <option value="$PROJECT_DIR$/dataExtraction/csvSave.py" />
         <option value="$PROJECT_DIR$/dataExtraction/cars_details.csv" />
-        <option value="$PROJECT_DIR$/dataExtraction/main.py" />
+        <option value="$PROJECT_DIR$/preparationsForAIAttempts/outliersRemoval.py" />
         <option value="$PROJECT_DIR$/dataExtraction/extractions.py" />
-        <option value="$PROJECT_DIR$/dataExtraction/management.py" />
         <option value="$PROJECT_DIR$/dataExtraction/car_details.csv" />
+        <option value="$PROJECT_DIR$/dataExtraction/management.py" />
+        <option value="$PROJECT_DIR$/dataExtraction/car_details2.csv" />
+        <option value="$PROJECT_DIR$/dataExtraction/main.py" />
       </list>
     </option>
   </component>
@@ -210,6 +190,16 @@
               <option name="myItemId" value="ScrapyAttempt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScrapyAttempt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScrapyAttempt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dataExtraction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -254,7 +244,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/last" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/206" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -274,25 +264,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main (1)">
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ScrapyAttempt" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="fileManagement" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -364,6 +335,25 @@
       <module name="ScrapyAttempt" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataExtraction/management.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="outliersRemoval" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preparationsForAIAttempts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ScrapyAttempt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preparationsForAIAttempts/outliersRemoval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -518,19 +508,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.fileManagement" />
-      <item index="2" class="java.lang.String" itemvalue="Python.extractions" />
-      <item index="3" class="java.lang.String" itemvalue="Python.main (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.management" />
+      <item index="0" class="java.lang.String" itemvalue="Python.fileManagement" />
+      <item index="1" class="java.lang.String" itemvalue="Python.extractions" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.management" />
+      <item index="4" class="java.lang.String" itemvalue="Python.outliersRemoval" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
         <item index="1" class="java.lang.String" itemvalue="Python.extractions" />
-        <item index="2" class="java.lang.String" itemvalue="Python.management" />
-        <item index="3" class="java.lang.String" itemvalue="Python.fileManagement" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.outliersRemoval" />
+        <item index="3" class="java.lang.String" itemvalue="Python.management" />
+        <item index="4" class="java.lang.String" itemvalue="Python.fileManagement" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +573,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26841244" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -615,17 +605,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dataExtraction/management.py</url>
-          <line>29</line>
+          <line>31</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dataExtraction/management.py</url>
-          <line>30</line>
+          <line>32</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dataExtraction/management.py</url>
-          <line>31</line>
+          <line>33</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
@@ -756,49 +746,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataExtraction/main.py">
+    <entry file="file://$PROJECT_DIR$/preparationsForAIAttempts/outliersRemoval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="197" column="33" lean-forward="true" selection-start-line="197" selection-start-column="33" selection-end-line="197" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="92" lean-forward="false" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataExtraction/management.py">
+    <entry file="file://$PROJECT_DIR$/crawler/bama/crawled.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="130">
+          <caret line="10994" column="72" lean-forward="false" selection-start-line="10994" selection-start-column="0" selection-end-line="10994" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataExtraction/extractions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="232">
+          <caret line="107" column="93" lean-forward="false" selection-start-line="107" selection-start-column="93" selection-end-line="107" selection-end-column="93" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/bama/crawled.txt">
+    <entry file="file://$PROJECT_DIR$/dataExtraction/car_details.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259555">
-          <caret line="10994" column="72" lean-forward="false" selection-start-line="10994" selection-start-column="0" selection-end-line="10994" selection-end-column="72" />
+        <state relative-caret-position="-200357">
+          <caret line="3822" column="16" lean-forward="false" selection-start-line="3822" selection-start-column="13" selection-end-line="3822" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataExtraction/car_details.csv">
+    <entry file="file://$PROJECT_DIR$/dataExtraction/management.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="3499" column="0" lean-forward="true" selection-start-line="3499" selection-start-column="0" selection-end-line="3499" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataExtraction/car_details2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="934" column="0" lean-forward="true" selection-start-line="934" selection-start-column="0" selection-end-line="934" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataExtraction/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="231" column="0" lean-forward="true" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

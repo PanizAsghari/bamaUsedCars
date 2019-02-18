@@ -18,6 +18,7 @@ def extract_url_info(url):
             else:
                 del segment[-1]
                 del segment [-1]
+                extra_info = segment[-1]
                 del segment [-1]
                 del segment [0]
      #       print(segment)
@@ -30,7 +31,7 @@ def extract_url_info(url):
                     model =segment[-2]+" "+segment[-1]
                     if len(segment)>3:
                         brand= brand + " "+segment[1]
-                return brand, model
+                return brand, model,extra_info
 
 def make_soup(page):
     page = BeautifulSoup(page , "lxml")
@@ -90,10 +91,10 @@ def extract_info(page):
         description = info.get_text()
     except AttributeError:
         description = ""
-    return description, mileage, price, release_date, gear, fuel, body, color
+    return release_date, price, type, mileage, gear, fuel, body, color
 
 def extractor(url):
-    brand,model = extract_url_info(url)
+    brand,model,extra_info = extract_url_info(url)
     try:
         page=open_page(url)
         if isinstance(page, str):
@@ -103,11 +104,9 @@ def extractor(url):
         return
     extract_info(data)
     try:
-        description, mileage, price, release_date, gear, fuel, body_status, color, =extract_info(data)
-        return description, mileage, price, release_date, brand, model, gear, fuel, body_status, color
+        release_date, price, type, mileage, gear, fuel, body, color =extract_info(data)
+        return brand, model, release_date, extra_info, price, type, mileage, gear, fuel, body, color
     except:
         print("the car is sold, proceeding to the next url")
         return
 
-
-extract_url_info("https://bama.ir/car/details-2-6577772/1397-renault-sandero-stepway-at-for-sale")

@@ -17,7 +17,7 @@ def preparation():
 def prepare_details(line):
     result_set = []
     try:
-        description, mileage, price, release_date, brand, model, gear, fuel, body_status, color = extractor(line)
+        brand, model, release_date, extra_info, price, type, mileage, gear, fuel, body,  color = extractor(line)
         if "NA" in brand:
             return
     except TypeError:
@@ -49,42 +49,42 @@ def prepare_details(line):
         fuel =2
     else:
         fuel= 3
-    if "بدون رنگ" in body_status:
-        body_status =1
-    elif "صافکاری بدون رنگ" in body_status:
-        body_status =2
-    elif "یک لکه رنگ" in body_status:
-        body_status =3
-    elif "دو لکه رنگ" in body_status:
-        body_status =4
-    elif "چند لکه رنگ" in body_status:
-        body_status =5
-    elif "گلگیر رنگ" in body_status:
-        body_status = 6
-    elif "گلگیر تعویض" in body_status:
-        body_status = 7
-    elif "یک درب رنگ" in body_status:
-        body_status =8
-    elif "دو درب رنگ" in body_status:
-        body_status =9
-    elif "درب تعویض" in body_status:
-        body_status =10
-    elif "کاپوت رنگ" in body_status:
-        body_status =11
-    elif "کاپوت تعویض" in body_status:
-        body_status =12
-    elif "دور رنگ" in body_status:
-        body_status =13
-    elif "کامل رنگ" in body_status:
-        body_status =14
-    elif "تصادفی" in body_status:
-        body_status =15
-    elif "اتاق تعویض" in body_status:
-        body_status =16
-    elif "سوخته" in body_status:
-        body_status =17
-    elif "اوراقی" in body_status:
-        body_status = 18
+    if "بدون رنگ" in body:
+        body =1
+    elif "صافکاری بدون رنگ" in body:
+        body =2
+    elif "یک لکه رنگ" in body:
+        body =3
+    elif "دو لکه رنگ" in body:
+        body=4
+    elif "چند لکه رنگ" in body:
+        body =5
+    elif "گلگیر رنگ" in body:
+        body = 6
+    elif "گلگیر تعویض" in body:
+        body = 7
+    elif "یک درب رنگ" in body:
+        body =8
+    elif "دو درب رنگ" in body:
+        body =9
+    elif "درب تعویض" in body:
+        body =10
+    elif "کاپوت رنگ" in body:
+        body =11
+    elif "کاپوت تعویض" in body:
+        body =12
+    elif "دور رنگ" in body:
+        body =13
+    elif "کامل رنگ" in body:
+        body =14
+    elif "تصادفی" in body:
+        body =15
+    elif "اتاق تعویض" in body:
+        body =16
+    elif "سوخته" in body:
+        body =17
+    elif "اوراقی" in body:
+        body = 18
     color = color.split('،')
     interior_color = color[1].replace('داخل ',"")
     exterior_color = color[0]
@@ -207,17 +207,21 @@ def prepare_details(line):
         interior_color =21
     elif "مسی" in interior_color:
         interior_color =22
-    result_set.append(release_date)
     result_set.append(brand)
     result_set.append(model)
+    result_set.append(release_date)
+    result_set.append(extra_info)
     result_set.append(price)
+    result_set.append(type)
     result_set.append(mileage)
     result_set.append(gear)
     result_set.append(fuel)
-    result_set.append(body_status)
+    result_set.append(body)
+    #result_set.append(description)
     result_set.append(exterior_color)
     result_set.append(interior_color)
     print(result_set)
+    #print(extra_info)
     return result_set
 
 

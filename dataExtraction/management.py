@@ -1,9 +1,11 @@
 import urllib.request
 import csv
 import http
+from random import randint
+from time import sleep
 
 def write_to_csv(atts_list):
-    with open("details.csv", 'wb') as resultFile:
+    with open("details2.csv", 'wb') as resultFile:
         wr = csv.writer(resultFile, dialect='excel')
         wr.writerow(atts_list)
 
@@ -33,15 +35,18 @@ def open_page(web_url):
     except http.client.IncompleteRead:
         print("http exception")
         return "Exception occured"
+    except ConnectionResetError:
+        print("connection reset error")
+        return "Exception occured"
 
 def write_list_to_csv(list):
-    with open("car_details.csv", "a") as fp:
+    with open("car_details2.csv", "a") as fp:
         wr = csv.writer(fp, dialect='excel')
         try:
             wr.writerow(list)
         except UnicodeEncodeError:
             print("unicode error. there was a problem with your set encoding")
-            list[9]=17
+            list[10]=17
             print(list)
             wr.writerow(list)
             return
